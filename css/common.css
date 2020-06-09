@@ -1,0 +1,24 @@
+/* 版心：用于固定网页主要内容的宽度并且居中 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* 设置浮动 */
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  /* 清除盒子浮动 */
+  /* 盒子与盒子浮动 */
+  .clear {
+    clear: both;
+  }
+  /* 清除固定结构浮动 */
+  .clearfix::after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+  }

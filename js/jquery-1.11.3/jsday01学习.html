@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day01jq环境搭建</title>
+    <script src="../jquery.js"></script>
+    <style>
+        .dr{
+            width: 60px;
+            height: 60px;
+            border: 1px solid red;
+            border-radius: 30px;
+            position: absolute;
+            top: 250px;
+            left: 0;
+        }
+        /* div { */
+        /* width: 60px; */
+        /* height: 60px; */
+        /* } */
+
+        /* .red { */
+        /* background: red; */
+        /* width: 100px; */
+        /* font-size: 40px; */
+        /* } */
+
+        /* .yellow { */
+        /* background: yellow; */
+        /* } */
+
+        /* .green { */
+        /* background: green; */
+        /* } */
+    </style>
+    <!-- 步骤1引入jQ库文件 -->
+
+</head>
+
+<body>
+    <!-- 开关灯 -->
+    <!-- <button id="close">关灯</button> -->
+    <!-- <button id="open">开灯</button> -->
+    <!-- 点击切换类名 -->
+    <!-- <div class="red">aaa</div> -->
+    <!-- <div class="yellow">bbb</div> -->
+    <!-- <div class="green">ccc</div> -->
+    <!-- <div>ddd</div> -->
+    <!-- <div>eee</div> -->
+
+    <!-- 查找上下所有的兄弟元素 -->
+    <!-- <form> -->
+    <!-- <label>Name:</label> -->
+    <!-- <input name="name" /> -->
+    <!-- <fieldset> -->
+    <!-- <label>Newsletter:</label> -->
+    <!-- <input name="newsletter" /> -->
+    <!-- </fieldset> -->
+    <!-- </form> -->
+    <!-- <input name="none" /> -->
+
+    <!-- <div id="notMe"> -->
+    <!-- <p>id="notMe"</p> -->
+    <!-- </div> -->
+    <!-- <div id="myDiv">id="myDiv"</div> -->
+
+    <!-- 过滤选择 -->
+    <!-- <ul id="ul"> -->
+        <!-- <li>这是li1</li> -->
+        <!-- <li>这是li2</li> -->
+        <!-- <li>这是li3</li> -->
+        <!-- <li>这是li4</li> -->
+        <!-- <li>这是li5</li> -->
+        <!-- <li>这是li6</li> -->
+        <!-- <li>这是li7</li> -->
+        <!-- <li>这是li8</li> -->
+    <!-- </ul> -->
+    <!-- <button id="run">Run</button> -->
+    <!-- <div class="dr"/div> -->
+    <!-- 内容过滤 -->
+        <!-- <div>手机</div> -->
+        <!-- <div>衣服</div> -->
+        <!-- <div>电脑</div> -->
+        <div id="box">黑盒子</div>
+    <!-- 测试内容$符号 -->
+    <script>
+        //    console.log($);
+        // 关灯
+        // $('#close').click(function () {
+            // $('body').css('background-color', '#132c33')
+        // })
+        // 开灯
+        // $('#open').click(function () {
+            // $('body').css('background-color', '#74787a')
+        // })
+        // 关灯
+    </script>
+
+    <!-- 点击切换类名 -->
+    <script>
+        // $('div').click(function () {
+            // $(this).toggleClass('red')
+        // })
+        //选中标签
+        // $('div').css('background', 'black');
+        //选中id
+        // $('#myDiv').css('color', 'red')
+        // 查找上下所有的兄弟元素
+        // $('form~input').css('background', 'yellowgreen')
+        // $('form').siblings('input').css('background', 'yellowgreen')
+
+        // 过滤选择
+        // $('#ul li:first').css('background','red');
+        // $('#ul li:odd').css('background', 'red');
+        // $("#run").click(function () {
+            // $("div:not(:animated)").animate({ left: "+=1860" }, 2000);
+        // });
+        // $('div:contains("手机")').css('background','yellowgreen');
+        // $('div:empty').css('background','red');
+        $('#box').css({width:250,height:250,fontSize:60,color:'red',background:'black'})
+        // $('#box').css('background','black');
+    </script>
+
+
+
+</body>
+
+</html>
